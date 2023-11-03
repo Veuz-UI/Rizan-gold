@@ -1,0 +1,34 @@
+
+
+@font-face {
+    font-family: 'kinzakinza';
+    src: url('kinza-webfont.woff2') format('woff2'),
+         url('kinza-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'san_de_more_demoregular';
+    src: url('sandemoredemo-regular-webfont.woff2') format('woff2'),
+         url('sandemoredemo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'san_de_more_demosemi_bold';
+    src: url('sandemoredemo-semibold-webfont.woff2') format('woff2'),
+         url('sandemoredemo-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
