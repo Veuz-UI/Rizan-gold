@@ -2641,6 +2641,9 @@ footer .footer-logo .footer-img{
 .login-cart{
   margin-left: 0px;
 }
+.main-navbar li .nav-link:hover::before{
+  display: none;
+}
 
 }
 
