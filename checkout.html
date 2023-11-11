@@ -67,7 +67,7 @@
                         </ul>
                         <div class="login-cart">
                             <div class="top-login">
-                                <a href="#"><i class="fa-regular fa-user"></i>Log In</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#login"><i class="fa-regular fa-user"></i>Log In</a>
                             </div>
                             <div class="cart">
                                 <a href="#">Cart (0)</a>
@@ -88,7 +88,7 @@
                                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                                         <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
-                                        <li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 
                                     </ul>
                                     <ul class="header-social">
@@ -106,181 +106,165 @@
             </div>
         </div>
     </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="3000">
-                <!-- <div class="banner-heading">
-                    <h1>About Us</h1>
-                </div> -->
-
-                <a href="product.html"><button type="button" class="btn5">View More</button></a>
-              </div>
-          </div>
-          
-        </div>
-       
-      </div>
 
 
-      <section class="shop-by-cat blog-page">
+
+      <section class="shop-by-cat cart-page">
         <div class="container" data-aos="fade-up" data-aos-duration="3000">
             <div class="row">
-                <div class="col-md-3 left-sidebar">
-                    <div class="blog-block">
-                        <div class="block-title">Search</div>
-                        <div class="block-content">
-                            <form method="get" class="search-form" action="">
-                                <input type="text" value="" name="s" class="s" placeholder="Search...">
-                                <button class="btn" type="submit">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                              </form>
-                        </div>
-                    </div>
-                    <div class="blog-block">
-                        <div class="block-title">Categories</div>
-                        <div class="block-content">
-                            <ul class="blog-category">
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Earrings</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Bangles</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Necklace</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Bracelets</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Baby Collections</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Wedding Ring</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Pendant</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Nose Pin</a></li>
-                                <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Mangalsutra</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="blog-block">
-                        <div class="block-title">Latest Posts</div>
-                        <div class="block-content">
-                            <div class="latest-blogbox">
-                                <div class="latest-blogimg">
-                                    <img src="img/blog1.jpg" alt="">
-                                </div>
-                                <div class="latest-blogcontent">
-                                    <h6>November 5, 2023</h6>
-                                    <h5>How to Flaunt Your Gold Earrings This Festive Season!</h5>
-                                </div>
-                            </div>
-                            <div class="latest-blogbox">
-                                <div class="latest-blogimg">
-                                    <img src="img/blog2.jpg" alt="">
-                                </div>
-                                <div class="latest-blogcontent">
-                                    <h6>November 5, 2023</h6>
-                                    <h5>Bridal Jewellery Set: Choose the Best One For Your Wedding</h5>
-                                </div>
-                            </div>
-                            <div class="latest-blogbox">
-                                <div class="latest-blogimg">
-                                    <img src="img/blog3.jpg" alt="">
-                                </div>
-                                <div class="latest-blogcontent">
-                                    <h6>November 5, 2023</h6>
-                                    <h5>Gorgeous Diamond Jewellery to Celebrate Little Milestones in Your Life</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-block">
-                        <div class="block-title">Newsletter</div>
-                        <div class="block-content">
-                            <form method="get" class="newsletter-form" action="">
-                                <input type="text" value="" name="s" class="s" placeholder="Your Email Address">
-                                <button type="button" class="btn2" fdprocessedid="ypqniu">
-                                    <span class="transition"></span>
-                                    <span class="label">Submit</span>
-                                  </button>
-                              </form>
-                        </div>
-                    </div>
-                    <div class="blog-block block-last">
-                        <div class="block-title">Tags</div>
-                        <div class="block-content">
-                            <ul class="blog-tags">
-                                <li><a href="#">Diamond</a></li>
-                                <li><a href="#">Jewellery</a></li>
-                                <li><a href="#">Ring</a></li>
-                                <li><a href="#">Necklace</a></li>
-                                <li><a href="#">Gold Jewellery</a></li>
-                                <li><a href="#">Gold coin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                   <div class="blog-grid">
-                    <div class="row">
+                <div class="col-md-7">
+                    <div class="shipping-address">
+                        <h3>Billing Details</h3>
+                       <div class="row">
                         <div class="col-md-6">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img src="img/blog1.jpg" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h5>November 5, 2023<span>By Alpha Sebastin</span></h5>
-                                    <h3>How to Flaunt Your Gold Earrings This Festive Season!</h3>
-                                    <p>The festive season is upon us, and what better way to celebrate than by adorning yourself with the timeless allure of gold earrings from Rizan Gold and Diamonds! As you prepare to make a statement at every gathering, we've curated a guide on how to flaunt your gold earrings with grace and style.</p>
-                                    <h6><a href="#">View More</a></h6>
-                                </div>
-                            </div>
+                            <input type="text" placeholder="First Name">
                         </div>
                         <div class="col-md-6">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img src="img/blog2.jpg" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h5>November 5, 2023<span>By Farishta</span></h5>
-                                    <h3>Bridal Jewellery Set: Choose the Best One For Your Wedding</h3>
-                                    <p>Wedding is the time when you can indulge in heavy-duty shopping totally guilt-free. You can buy expensive clothes, lots and lots of shoes, luxury makeup, and most importantly, jewellery. From bridal necklaces to daily wear simple chains, from heavy jhumkas to cocktail rings, from bold naths to delicate payals, the bride-to-be can buy the most exquisite jewellery pieces to adorn herself from head to toe on her big day.</p>
-                                    <h6><a href="#">View More</a></h6>
-                                </div>
-                            </div>
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Your Company Name">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Street Address">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Town / City">
                         </div>
                         <div class="col-md-6">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img src="img/blog3.jpg" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h5>November 5, 2023<span>By Farishta</span></h5>
-                                    <h3>Gorgeous Diamond Jewellery to Celebrate Little Milestones in Your Life</h3>
-                                    <p>It's no secret that jewellery is the perfect gift to add spark to the celebration of special moments. Why should we reserve celebrations for only the big events in our lives? You deserve to enjoy little milestones as well. Whether promoted at work, blessed with a baby, or bought a dream home, exchanging gifts makes your moments memorable.</p>
-                                    <h6><a href="#">View More</a></h6>
-                                </div>
-                            </div>
+                            <input type="text" placeholder="Country">
                         </div>
                         <div class="col-md-6">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img src="img/blog1.jpg" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h5>November 5, 2023<span>By Alpha Sebastin</span></h5>
-                                    <h3>How to Flaunt Your Gold Earrings This Festive Season!</h3>
-                                    <p>The festive season is upon us, and what better way to celebrate than by adorning yourself with the timeless allure of gold earrings from Rizan Gold and Diamonds! As you prepare to make a statement at every gathering, we've curated a guide on how to flaunt your gold earrings with grace and style.</p>
-                                    <h6><a href="#">View More</a></h6>
-                                </div>
-                            </div>
+                            <input type="text" placeholder="Postcode / Zip">
                         </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Phone number">
+                        </div>
+                       </div>
+                       <div class="checkbox checkbox1">
+                        <input id="form-checkbox-1" name="checkbox" type="checkbox">
+                        <label for="form-checkbox-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200">
+                            <mask fill="white" id="checkbox-mask"><rect height="200" width="200"></rect></mask>
+                            <rect mask="url(#checkbox-mask)" stroke-width="18" height="200" width="200"></rect>
+                            <path stroke-width="15" d="M52 111.018L76.9867 136L149 64"></path>
+                          </svg>
+                          <span>Ship Items To The Above Billing Address</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="shipping-address">
+                        <h3>Shipping Details</h3>
+                       <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Your Company Name">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Street Address">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Town / City">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Country">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Postcode / Zip">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Phone number">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea type="text" cols="20" rows="5" placeholder="Notes about your order, e.g. special notes for delivery.">
+                            </textarea>
+                        </div>
+                       </div>
                        
                     </div>
-                    <nav class="pagination">
-                        <ul class="page-numbers">
-                            <li><a class="prev page-num" href="#"><i class="fa-solid fa-chevron-left"></i></a></li>
-                            <li><a href="#" aria-current="page" class="page-numbers current">1</a></li>
-                            <li><a class="page-numbers" href="#">2</a></li>
-                            <li><a class="page-numbers" href="#">3</a></li>
-                            <li><a class="next page-num" href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
-                        </ul>
-                    </nav>
-                   </div>
                 </div>
+                <div class="col-md-5">
+                    <div class="order-list">
+                        <h3>Your Order</h3>
+                            <div class="cart-items">
+                                <div class="cart-item">
+                                    <div class="info-product">
+                                        <div class="product-thumbnail">
+                                            <img width="600" height="600" src="img/new1.png" alt="">					
+                                        </div>
+                                        <div class="product-name">
+                                            Golden Chain
+                                            <strong class="product-quantity">QTY : 2</strong>											
+                                        </div>
+                                    </div>
+                                    <div class="product-total">
+                                        <span>AED 300.00</span>
+                                    </div>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="info-product">
+                                        <div class="product-thumbnail">
+                                            <img width="600" height="600" src="img/new2.png" alt="">					
+                                        </div>
+                                        <div class="product-name">
+                                            Couple Rings
+                                            <strong class="product-quantity">QTY : 1</strong>											
+                                        </div>
+                                    </div>
+                                    <div class="product-total">
+                                        <span>AED 180.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <h2>Subtotal</h2>
+                                <div class="subtotal-price">
+                                    <span>AED 480.00</span>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <h2>Vat / Tax</h2>
+                                <div class="subtotal-price">
+                                    <span>AED 480.00</span>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <h2>Shipping</h2>
+                                <div class="subtotal-price">
+                                    <span>AED 480.00</span>
+                                </div>
+                            </div>
+                            <div class="cart-total order-total">
+                                <h2>Total</h2>
+                                <div class="subtotal-price">
+                                    <strong>
+                                        <span>AED 480.00</span>
+                                    </strong> 
+                                </div>
+                            </div>
+                            <div class="paymentcard-box">
+                                <span>Card</span>
+                                <img src="img/all-card.jpg" alt="">
+                            </div>
+                            <div class="proceed-to-checkout">		
+                                <a href="checkout.html">
+                                    <button type="button" class="btn3">
+                                        <span class="transition"></span>
+                                        <span class="label">Place Order</span>
+                                    </button>
+                                   
+                                </a>
+                            </div>
+                    </div>   
+                    
+                       
+                </div>
+              
             </div>
           
         </div>
@@ -392,7 +376,6 @@
     </div>
   </section>
 
-
   <footer>
     <div class="container">
         <div class="row">
@@ -474,7 +457,82 @@
 </footer>
 
 
-
+  
+  <!-- Modal -->
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         <div class="modal-close">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         
+        </div>
+        <div class="modal-body">
+            <div class="flip-container">
+                <div class="flipper" id="flipper">
+                    <div class="front">
+                        <h1 class="title">Login</h1>
+                        <form>
+                                    <input type="text" placeholder="Username" />
+                                    <input type="password" placeholder="Password" />
+                                    <h6><a href="forgot.html">Forget password?</a></h6>
+                                    <button type="button" class="login-btn">Login</button>
+                        </form>
+                        <a class="flipbutton" id="loginButton" href="#">Create An Account</a>
+                    </div>
+                    
+                    <div class="back">
+                        <h1 class="title">Register</h1>
+                        <form>
+                            <div class="row gx-2">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="First Name" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Last Name" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="email" placeholder="Email" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="password" placeholder="Password" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="password" placeholder="Confirm Password" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" placeholder="Address" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="City/Emirate" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="State/Country" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Zip Code" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="phone" />
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="button" class="login-btn">Sign Up</button>
+                                </div>
+                             
+                            </div>
+                               
+                               
+                        </form>
+                        <a class="flipbutton" id="registerButton" href="#">Already has an account</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
 
 
     <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
@@ -651,6 +709,18 @@
                 }
             });
 		});
+    </script>
+    <script>
+        var loginButton = document.getElementById("loginButton");
+        var registerButton = document.getElementById("registerButton");
+
+        loginButton.onclick = function () {
+            document.querySelector("#flipper").classList.toggle("flip");
+        }
+
+        registerButton.onclick = function () {
+            document.querySelector("#flipper").classList.toggle("flip");
+        }
     </script>
 </body>
 </html>
