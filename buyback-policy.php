@@ -1,129 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizan</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="webfont/font.css">
-    <link rel="stylesheet" href="css/select2.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<?php include("header.php") ?>
 
-    <div class="loader-mask">
-        <div class="spinnerContainer">
-            <img src="img/favicon.png" class="img-fluid logo-rotate-center">
-            <div class="rotate-preloader">
-                <img src="img/reloader.png" class="img-fluid">
-            </div>
-        </div>
-    </div>
-    
-    <div class="header">
-        <div class="container-fluid">
+<div class="main-heading mt-100 mt-mob" data-aos="fade-up" data-aos-duration="3000">
+    <h2>Buyback Policy</h2>
+  </div>
+
+      <section class="shop-by-cat policy-page">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
             <div class="row">
-                <div class="col-md-2 col-4">
-                    <div class="logo">
-                        <a href="index.php">
-                            <img src="img/logo-w.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-10 right-side col-8">
-                    <div class="right-top-header">
-                        <div class="search-div">
-                            <div class="search-input">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_394)">
-                                    <path d="M14.8577 14.1839L10.9849 10.3731C11.9991 9.27122 12.6222 7.81401 12.6222 6.21051C12.6217 2.78032 9.79636 0 6.31085 0C2.82535 0 0 2.78032 0 6.21051C0 9.6407 2.82535 12.421 6.31085 12.421C7.81683 12.421 9.19808 11.9001 10.283 11.0341L14.1708 14.86C14.3603 15.0466 14.6678 15.0466 14.8572 14.86C15.0471 14.6734 15.0471 14.3705 14.8577 14.1839ZM6.31085 11.4655C3.36173 11.4655 0.971013 9.11277 0.971013 6.21051C0.971013 3.30825 3.36173 0.955524 6.31085 0.955524C9.26 0.955524 11.6507 3.30825 11.6507 6.21051C11.6507 9.11277 9.26 11.4655 6.31085 11.4655Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_1_394">
-                                    <rect width="15" height="15" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                    
-                                    
-                            </div>
-                         
-                        </div>
-                        <select name='options[212]' class="form-control">
-                            <option value='option-1' data-src="img/uae.png">UAE</option>
-                            <!-- <option value='option-2' data-src="img/usa.png">USA</option> -->
-                        </select> 
-                        <ul class="header-social">
-                            <li><a href="https://www.facebook.com/rizangold"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/rizangold"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="https://twitter.com/RizanGold"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="https://www.youtube.com/@rizangold"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li><a href="https://www.pinterest.com/rizangold"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        </ul>
-                        <div class="login-cart">
-                            <div class="top-login">
-                                <a href="#"><i class="fa-regular fa-user"></i>Log In</a>
-                            </div>
-                            <div class="cart">
-                                <a href="#">Cart (0)</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-bottom-header">
-                        <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
-                            <div class="right-nav">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="main_nav">
-                                    <ul class="navbar-nav">
-                                        
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="product.html">Shop All</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                        <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-
-                                    </ul>
-                                    <ul class="header-social">
-                                        <li><a href="https://www.facebook.com/rizangold"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/rizangold"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="https://twitter.com/RizanGold"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                        <li><a href="https://www.youtube.com/@rizangold"><i class="fa-brands fa-youtube"></i></a></li>
-                                        <li><a href="https://www.pinterest.com/rizangold"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>    
-                </div>
+               <div class="col-md-12">
+          
+                    <p>If the customer wishes to return our product, he/she can do so within 7 days. We will ensure that the entire amount is refunded to the customer's account within 14 working days. Below mentioned conditions are applicable for refund.</p>
+                    <ul>
+                        <li>If the customers do not like our product, he/ she can send the product back to us within 7 days. We will make sure to refund the entire amount back to customer's account within 14 working days.</li>
+                        <li>You can find registered address on www.rizanjewellery.com and the refund will be applicable only if the product is shipped to the registered address within 7 days.</li>
+                        <li>This refund facility is available only through www.rizanjewellery.com and not through any other stores.</li>
+                        <li>Refund request can be done by informing our customer care via email or call. Ship the product back to us at your own cost. Once the product is received and successfully undergoes the quality check, the refund shall be done.</li>
+                        <li>This refund is subject to quality confirmation by our skilled quality assurance team and on verification that the packaging of the same is complete with all the documents like insurance certificate, original invoice and product certificate.</li>
+                        <li>This policy is not applicable for products that are ordered with specific indications like customization, engraving, purchase using promotion code or by discount coupon.</li>
+                        <li>14 days refund policy is not applicable for gold coins,pamp and bullion bars.</li>
+                    </ul>
+               </div>
+              
             </div>
-        </div>
-    </div>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="3000">
-                <!-- <div class="banner-heading">
-                    <h1>About Us</h1>
-                </div> -->
-
-                <a href="product.html"><button type="button" class="btn5">View More</button></a>
-              </div>
-          </div>
           
         </div>
-       
-      </div>
+      </section>
 
-  <div class="main-heading mt-100" data-aos="fade-up" data-aos-duration="3000">
+  <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
     <h2>Contact Us</h2>
   </div>
   <section class="contact-sec">
@@ -228,91 +131,11 @@
         
     </div>
   </section>
-<section class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57702.26303706723!2d55.37613700429273!3d25.324642622792847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f21d0ea0963%3A0xd4b3404a5d69b72c!2sSafari%20Mall%20Sharjah!5e0!3m2!1sen!2sin!4v1699614036907!5m2!1sen!2sin" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
 
-  <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-logo">
-                    <img src="img/logo.png" alt="" class="footer-img">
-                    <select name='options[212]' class="form-control">
-                        <option value='option-1' data-src="img/uae.png">UAE</option>
-                        <!-- <option value='option-2' data-src="img/usa.png">USA</option> -->
-                      </select> 
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Get to Know Us</h5>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="product.html">Our Stores</a></li>
-                        <li><a href="#">CSR</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Rizan Assurance</h5>
-                    <ul>
-                        <li>Lifetime Product Service </li>
-                        <li>14 Days Return </li>
-                        <li>Only Certified Jewellery</li>
-                        <li>Product Detail Pricing</li>
-                        <li>Easy Exchange</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Policies</h5>
-                    <ul>
-                        <li><a href="#">Refund Policy</a></li>
-                        <li><a href="#">Buyback Policy</a></li>
-                        <li><a href="#">Exchange Policy</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Cancellation Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="#">Ring Size Guide</a></li>
-                        <li><a href="#">Bangle Size Guide</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Customer Service</h5>
-                    <ul>
-                        <li><a href="tel:912262300916">+91 22 62300916 /</a></li>
-                        <li><a href="tel:919167780916">+91 9167780916</a></li>
-                        <li class="mt-25">For online queries:</li>
-                        <li><a href="mailto:sales@rizanjewellery.com">sales@rizanjewellery.com</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright">
-                    <p>Copyright © 2023 <a href="#">Rizan Jewllery</a>. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+  <?php include("footer.php") ?>
 
 
+  
 
 
 
@@ -491,5 +314,6 @@
             });
 		});
     </script>
+
 </body>
 </html>

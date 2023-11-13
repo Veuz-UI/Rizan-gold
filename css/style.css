@@ -657,6 +657,7 @@ img.vert-move {
   font-size: 17.5px;
   font-weight: 200;
   color: var(--white) !important;
+  border-bottom: 2px solid transparent;
 }
 
 .main-navbar .dropdown-toggle::after{
@@ -2304,6 +2305,7 @@ footer .footer-logo .footer-img{
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 5px;
+  color: var(--black);
 }
 
 .latest-blogcontent h5{
@@ -2311,6 +2313,7 @@ footer .footer-logo .footer-img{
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 0px;
+  color: var(--black);
   overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -2665,6 +2668,10 @@ footer .footer-logo .footer-img{
   height: 3em;
 }
 
+.cart-page{
+  padding-top: 65px;
+}
+
 .cart-totals{
   background: #f6f6f6;
     padding-bottom: 30px;
@@ -2997,7 +3004,211 @@ footer .footer-logo .footer-img{
   transition: 1s;
 }
 
+/* policy */
 
+.policy-page p{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.policy-page ul{
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.policy-page ul li{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  list-style-type: square;
+  margin-bottom: 10px;
+}
+.policy-page ul li::marker{
+  color: var(--primary-color);
+}
+
+.policy-page h4{
+  font-family: var(--font-family-sanregular);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin: 25px 0px 15px;
+}
+
+.policy-page{
+  padding: 35px 0px 80px;
+}
+
+.cancellation p{
+  text-align: center;
+}
+
+/* career */
+
+.career-box{
+  border: 1px solid #ebebeb;
+  padding: 20px 25px;
+  margin: 0 50px 15px;
+}
+
+.job-title{
+  font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+}
+.job-title:hover{
+  color: var(--black);
+}
+.career-box .second-box{
+  display: flex;
+  justify-content: space-between;
+}
+.career-box .second-box h6{
+  color: #6C6C6C;
+  font-weight: 300;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+}
+.career-box .second-box h6 span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-weight: 400;
+}
+.career-btns{
+  float: right;
+}
+.career-info ul {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.career-info ul li{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  list-style-type: square;
+  margin-bottom: 5px;
+}
+.career-info ul li::marker{
+  color: var(--primary-color);
+}
+
+.career-info h3{
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.career-form{
+  padding-left: 40px;
+}
+
+.career-submit .btn3{
+  padding: 12px 70px;
+  font-size: 17px;
+}
+
+.career-submit .btn3:hover .transition{
+  width: 13em;
+}
+
+.career-submit .btn3 .label{
+  font-family: var(--font-family-kinza);
+}
+
+.career-submit{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px 10px;
+}
+
+.career-form .shipping-address{
+  padding: 30px 25px 25px;
+}
+
+.career-form .shipping-address h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.file-upload-wrapper {
+  position: relative;
+  width: 100%;
+  height: 38px;
+}
+.file-upload-wrapper:after {
+  content: attr(data-text);
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px 15px;
+  display: block;
+  width: calc(100% - 110px);
+  pointer-events: none;
+  z-index: 20;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  color: #222;
+  border-radius: 0px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.file-upload-wrapper:before {
+  content: "Upload";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 38px;
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 300;
+  z-index: 25;
+  font-size: 16px;
+  padding: 0 15px;
+  display: flex;
+  text-transform: uppercase;
+  pointer-events: none;
+  border-radius: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.file-upload-wrapper:hover:before {
+  background: var(--secondary-color);
+}
+.file-upload-wrapper input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  margin: 0;
+  height: 38px;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+.resume{
+  border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
 
 
 
@@ -3076,6 +3287,7 @@ footer .footer-logo .footer-img{
   .header{
     padding-left: 10px;
     position: fixed;
+    top: 0px;
     height: 135px;
     width: 100%;
     z-index: 100;
@@ -3182,10 +3394,34 @@ footer .footer-logo .footer-img{
   margin-top: 50px;
 }
 .main-heading h2 {
-  font-size: 26px;
+  font-size: 25px;
+  padding: 0px 70px;
 }
 .main-heading h2::before, .main-heading h2::after{
   width: 15%;
+}
+.cart-page table .bottom-cart{
+  flex-wrap: initial;
+}
+.coupon .btn2{
+  width: 150px;
+}
+.cart-btns h2{
+  width: 160px;
+  padding-left: 15px;
+}
+.cart-btns .btn3{
+  width: 165px;
+}
+.cart-page table tbody tr td.product-thumbnail img{
+  width: 60px;
+    height: 60px;
+}
+.career-form .shipping-address{
+  margin-bottom: 10px;
+}
+.policy-page {
+  padding: 10px 0px 30px;
 }
 section {
   padding: 20px 0px 50px;
@@ -3222,9 +3458,15 @@ section {
 }
 .new-img img{
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
   height: 100%;
   width: 100%;
+}
+.product-page .new-box .new-img img{
+  object-position: center;
+}
+.px-mob-0{
+  padding: 0px;
 }
 .shop-by-cat .owl-nav{
   display: none;
@@ -3358,6 +3600,76 @@ footer .footer-logo .footer-img{
 }
 .product-page .new-box{
   margin-top: 0px;
+  height: 430px;
+}
+.map iframe {
+  height: 300px;
+}
+.blog-page {
+  padding: 50px 15px 50px;
+}
+.mt-mob{
+  margin-top: 180px;
+}
+.career-box{
+  padding: 20px 20px;
+  margin: 0 0px 15px;
+}
+.job-title{
+  font-size: 22px;
+}
+.career-form {
+  padding-left: 0px;
+  margin-top: 25px;
+}
+.career-box .second-box{
+  margin: 15px 0px;
+}
+.career-btns{
+  float: left;
+}
+.blog-page {
+  margin-top: 0px;
+}
+.blog-grid {
+  margin-top: 20px;
+  padding-left: 0px;
+}
+.mainblog-box .mainblog-img {
+  height: 300px;
+}
+.mainblog-content h3{
+  font-size: 23px;
+  line-height: 30px;
+}
+.mainblog-content ul{
+  margin-bottom: 15px;
+}
+.blog-share{
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.modal-body {
+  padding: 1.5rem 1rem;
+}
+.modal-close{
+  right: 9px;
+  top: 15px;
+}
+.flipper{
+  padding: 30px 20px;
+}
+.proceed-to-checkout{
+  padding: 0px 80px;
+}
+.cart-page {
+  padding-top: 180px;
+}
+.order-list .proceed-to-checkout{
+  padding: 0px 80px;
+}
+.pagination {
+  margin-top: 5px;
 }
 .product-detail-page {
   margin-top: 0px;

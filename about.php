@@ -1,544 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizan</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="webfont/font.css">
-    <link rel="stylesheet" href="css/select2.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
-    <div class="loader-mask">
-        <div class="spinnerContainer">
-            <img src="img/favicon.png" class="img-fluid logo-rotate-center">
-            <div class="rotate-preloader">
-                <img src="img/reloader.png" class="img-fluid">
-            </div>
+
+    <?php include("header.php") ?>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="3000">
+                <!-- <div class="banner-heading">
+                    <h1>About Us</h1>
+                </div> -->
+
+                <a href="product.php"><button type="button" class="btn5">View More</button></a>
+              </div>
+          </div>
+          
         </div>
-    </div>
-    
-    <div class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2 col-4">
-                    <div class="logo">
-                        <a href="index.php">
-                            <img src="img/logo-w.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-10 right-side col-8">
-                    <div class="right-top-header">
-                        <div class="search-div">
-                            <div class="search-input">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_394)">
-                                    <path d="M14.8577 14.1839L10.9849 10.3731C11.9991 9.27122 12.6222 7.81401 12.6222 6.21051C12.6217 2.78032 9.79636 0 6.31085 0C2.82535 0 0 2.78032 0 6.21051C0 9.6407 2.82535 12.421 6.31085 12.421C7.81683 12.421 9.19808 11.9001 10.283 11.0341L14.1708 14.86C14.3603 15.0466 14.6678 15.0466 14.8572 14.86C15.0471 14.6734 15.0471 14.3705 14.8577 14.1839ZM6.31085 11.4655C3.36173 11.4655 0.971013 9.11277 0.971013 6.21051C0.971013 3.30825 3.36173 0.955524 6.31085 0.955524C9.26 0.955524 11.6507 3.30825 11.6507 6.21051C11.6507 9.11277 9.26 11.4655 6.31085 11.4655Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_1_394">
-                                    <rect width="15" height="15" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                    
-                                    
-                            </div>
-                         
-                        </div>
-                        <select name='options[212]' class="form-control">
-                            <option value='option-1' data-src="img/uae.png">UAE</option>
-                            <!-- <option value='option-2' data-src="img/usa.png">USA</option> -->
-                        </select> 
-                        <ul class="header-social">
-                            <li><a href="https://www.facebook.com/rizangold"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/rizangold"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="https://twitter.com/RizanGold"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="https://www.youtube.com/@rizangold"><i class="fa-brands fa-youtube"></i></a></li>
-                            <li><a href="https://www.pinterest.com/rizangold"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        </ul>
-                        <div class="login-cart">
-                            <div class="top-login">
-                                <a href="#"><i class="fa-regular fa-user"></i>Log In</a>
-                            </div>
-                            <div class="cart">
-                                <a href="#">Cart (0)</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-bottom-header">
-                        <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
-                            <div class="right-nav">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="main_nav">
-                                    <ul class="navbar-nav">
-                                        
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                        <li class="nav-item active"><a class="nav-link" href="product.html">Shop All</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                                        <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+       
+      </div>
 
-                                    </ul>
-                                    <ul class="header-social">
-                                        <li><a href="https://www.facebook.com/rizangold"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/rizangold"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="https://twitter.com/RizanGold"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                        <li><a href="https://www.youtube.com/@rizangold"><i class="fa-brands fa-youtube"></i></a></li>
-                                        <li><a href="https://www.pinterest.com/rizangold"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>    
+
+
+<section class="about-sec about-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-center justify-center" data-aos="fade-right" data-aos-duration="3000">
+                <div class="about-content abt-content">
+                    <h2>True Unique</h2>
+                    <p>Founded by Shanoob PP, Rizan Gold, and Diamonds is more than just a jewelry brand; it's a labor of love passed down through generations. With a heritage deeply rooted in craftsmanship and a commitment to excellence, we bring you jewelry that reflects the artistry and dedication that defines our family's legacy.</p>
+                   
+                
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
+                <div class="about-img">
+                    <img src="img/true.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
-
-
-
-      <section class="product-detail-page">
-        <div class="container" data-aos="fade-up" data-aos-duration="3000">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="breadcrumbs mb-50">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Earings</a></li>
-                        <li><a href="#">Shop by Purity</a></li>
-                        <li><a href="#">22KT</a></li>
-                        <li><a href="#">Studs</a></li>
-                    </ul>
-                </div>
-               <div class="col-md-6 product-car" >
-                <div id="thumb" class="owl-carousel product-thumb">
-                    <div class="item">
-                        <img src="img/product/1.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/1-2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/2-2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/1.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/1-2.jpg" />
-                    </div>
-             
-                   
-                </div>
-                <div id="slider" class="owl-carousel product-slider">
-                    <div class="item">
-                          <img src="img/product/1.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/1-2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/2-2.jpg" />
-                    </div>
-                    <div class="item">
-                        <img src="img/product/1.jpg" />
-                  </div>
-                  <div class="item">
-                      <img src="img/product/1-2.jpg" />
-                  </div>
-             
-                   
-                </div>
-               </div>
-               <div class="col-md-6">
-                    <div class="product-dtl">
-                        <h2>Geometric Grace Diamond Stud Necklace</h2>
-                        <h3><span>Style No: KC04729YG</span> <a href="#">View Details</a></h3>
-                        <div class="product-price-discount"><span>AED 10,270</span><span class="line-through">AED 14,253</span></div>
-                        <div class="offer"><span>Offer: 20% OFF on Stone Price</span>Save : AED 3000</div>
-                        <button type="button" class="btn2">
-                            <span class="transition"></span>
-                            <span class="label">Add to Cart</span>
-                          </button>
-                          <div class="wish-share">
-                            <div class="addtofavorite">
-                                <div class="fav-icon">
-                                    <svg width="20" height="20" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </div>
-                                <h6>Add to Wishlist</h6>
-                            </div>
-                            <div class="share">
-                                <h6>Share <i class="fa-solid fa-share-nodes"></i></h6>
-                            </div>
-                          </div>
-                          <div class="accordion" id="regularAccordionRobots">
-
-                            <div class="accordion-item">
-                                <h2 id="regularHeadingFirst" class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#regularCollapseFirst" aria-expanded="false" aria-controls="regularCollapseFirst">
-                                      Customize this product
-                                  </button>
-                                </h2>
-                                <div id="regularCollapseFirst" class="accordion-collapse collapse" aria-labelledby="regularHeadingFirst" data-bs-parent="#regularAccordionRobots" style="">
-                                  <div class="accordion-body">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuhgsmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimal veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip incididunt commodo consequat.
-                                </div>
-                              </div>
-                            
-                              
-                            
-                            </div>
-                          
-                            
-                          
-                          </div>
-                    </div>
-               </div>
-            </div>
+</section>
+<section class="about-sec abt-page">
+    <div class="container">
+        <div class="row">
            
-        </div>
-    </section>
-    <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
-        <h2>You May Also Like</h2>
-      </div>
-      <section class="shop-by-cat product-carousel1">
-        <div class="container" data-aos="fade-up" data-aos-duration="3000">
-            <div class="owl-carousel owl-theme shop-carousel">
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro4.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Golden Bangles</h4>
-                            <div class="price">
-                                <h6>AED 14,256</h6>
-                                <h5>AED 10,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
+            <div class="col-md-6 order-2 order-md-1" data-aos="fade-right" data-aos-duration="3000">
+                <div class="about-img">
+                    <img src="img/abt1.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro5.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Necklace</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 12,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro6.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Nosepins</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 2,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro7.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Mangalsutra</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 21,656.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
+            </div>
+            <div class="col-md-6 order-1 order-md-2 align-center justify-center" data-aos="fade-left" data-aos-duration="3000">
+                <div class="about-content abt-content">
+                    <h2>Beyond Brilliance</h2>
+                    <p>Each piece of jewelry at Rizan Gold and Diamonds is meticulously crafted with unwavering attention to detail. Our skilled artisans bring to life your dreams, shaping every metal and stone into a work of art. We take pride in the quality of our materials, using only the finest precious metals and gemstones to ensure that every creation is as enduring as it is beautiful.</p>
+                   
+                
                 </div>
             </div>
         </div>
-    </section>
-
-    <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
-        <h2>Product Information</h2>
-      </div>
-
-      <section class="product-info">
-        <div class="container">
-            <div class="row">
-                <h5>*Difference in gold weight may occur & will apply on final price.</h5>
-                <div class="col-md-4" data-aos="fade-right" data-aos-duration="3000">
-                    <div class="product-sum">
-                        <h3>Product Summary </h3>
-                        <div class="pro-sum">
-                            <h6 class="light-c">Style No</h6>
-                            <h6>KC03456</h6>
-                        </div>
-                        <div class="pro-sum">
-                            <h6 class="light-c">Width</h6>
-                            <h6>0.65 cm (6.50 mm)</h6>
-                        </div>
-                        <div class="pro-sum">
-                            <h6 class="light-c">Metal Weight</h6>
-                            <h6>1.07g</h6>
-                        </div>
-                        <div class="pro-sum">
-                            <h6 class="light-c">Gross Weight</h6>
-                            <h6>1.09g</h6>
-                        </div>
-                    </div>
-                </div> 
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="3000">
-                    <div class="accordion" id="regularAccordion">
-
-                        <div class="accordion-item">
-                            <h2 id="regularHeadingF" class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#regularCollapseF" aria-expanded="false"
-                                    aria-controls="regularCollapseF">
-                                    PRICE BREAKUP
-                                </button>
-                            </h2>
-                            <div id="regularCollapseF" class="accordion-collapse collapse"
-                                aria-labelledby="regularHeadingF" data-bs-parent="#regularAccordion">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidiut.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="regularHeadingS">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#regularCollapseS" aria-expanded="false"
-                                    aria-controls="regularCollapseS">
-                                    METAL DETAILS
-                                </button>
-                            </h2>
-                            <div id="regularCollapseS" class="accordion-collapse collapse"
-                                aria-labelledby="regularHeadingS" data-bs-parent="#regularAccordion">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidiut.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="regularHeadingT">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#regularCollapseT" aria-expanded="false"
-                                    aria-controls="regularCollapseT">
-                                    DIAMOND DETAILS
-                                </button>
-                            </h2>
-                            <div id="regularCollapseT" class="accordion-collapse collapse"
-                                aria-labelledby="regularHeadingT" data-bs-parent="#regularAccordion">
-                                <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidiut.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    </div>
+</section>
+<section class="about-sec abt-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-center justify-center" data-aos="fade-right" data-aos-duration="3000">
+                <div class="about-content abt-content">
+                    <h2>Timeless Designs</h2>
+                    <p>Our collections are a fusion of classic elegance and contemporary aesthetics. Whether it's a delicate necklace that graces your neckline or a statement ring that commands attention, our jewelry is designed to be an extension of your personality, a testament to your unique style.</p>
+                  
+                
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
+                <div class="about-img">
+                    <img src="img/abt4.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
-      </section>  
-      
-      <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
-        <h2>More From Collection</h2>
-      </div>
-      <section class="shop-by-cat product-carousel1">
-        <div class="container" data-aos="fade-up" data-aos-duration="3000">
-            <div class="owl-carousel owl-theme shop-carousel1">
-                <div class="item">
-                    <div class="new-box">
-                       <div class="new-img">
-                            <img src="img/pro4.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Golden Bangles</h4>
-                            <div class="price">
-                                <h6>AED 14,256</h6>
-                                <h5>AED 10,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro5.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Necklace</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 12,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro6.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Nosepins</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 2,456.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"><div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="item">
-                   <div class="new-box">
-                        <div class="new-img">
-                            <img src="img/pro7.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="favorite">
-                            <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.8151 1.45679C14.9268 1.45679 13.0103 5.09314 13.0103 5.09314C13.0103 5.09314 11.0937 1.45679 7.20546 1.45679C4.04552 1.45679 1.54321 3.96473 1.51087 6.95734C1.44498 13.1692 6.70536 17.5868 12.4712 21.2993C12.6302 21.4019 12.818 21.4568 13.0103 21.4568C13.2025 21.4568 13.3903 21.4019 13.5493 21.2993C19.3146 17.5868 24.5749 13.1692 24.5097 6.95734C24.4773 3.96473 21.975 1.45679 18.8151 1.45679Z" stroke="#AF8D54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                                
-                                
-                        </div>
-                        <div class="new-content">
-                            <h4>Mangalsutra</h4>
-                            <div class="price">
-                                <h6>AED 30,256</h6>
-                                <h5>AED 21,656.00</h5>
-                            </div>
-                        </div>
-                        <a href="product-details.html"> <div class="add-to-cart">
-                            <button type="button" class="btn2">
-                                <span class="transition"></span>
-                                <span class="label">Add to Cart</span>
-                              </button>
-                        </div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>
+</section>
 <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
     <h2>The Rizan Assurances</h2>
   </div>
@@ -709,85 +249,7 @@
   </section>
 
 
-  <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-logo">
-                    <img src="img/logo.png" alt="" class="footer-img">
-                    <select name='options[212]' class="form-control">
-                        <option value='option-1' data-src="img/uae.png">UAE</option>
-                        <!-- <option value='option-2' data-src="img/usa.png">USA</option> -->
-                      </select> 
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Get to Know Us</h5>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="product.html">Our Stores</a></li>
-                        <li><a href="#">CSR</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Rizan Assurance</h5>
-                    <ul>
-                        <li>Lifetime Product Service </li>
-                        <li>14 Days Return </li>
-                        <li>Only Certified Jewellery</li>
-                        <li>Product Detail Pricing</li>
-                        <li>Easy Exchange</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Policies</h5>
-                    <ul>
-                        <li><a href="#">Refund Policy</a></li>
-                        <li><a href="#">Buyback Policy</a></li>
-                        <li><a href="#">Exchange Policy</a></li>
-                        <li><a href="#">Shipping Policy</a></li>
-                        <li><a href="#">Cancellation Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="#">Ring Size Guide</a></li>
-                        <li><a href="#">Bangle Size Guide</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Customer Service</h5>
-                    <ul>
-                        <li><a href="tel:912262300916">+91 22 62300916 /</a></li>
-                        <li><a href="tel:919167780916">+91 9167780916</a></li>
-                        <li class="mt-25">For online queries:</li>
-                        <li><a href="mailto:sales@rizanjewellery.com">sales@rizanjewellery.com</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright">
-                    <p>Copyright © 2023 <a href="#">Rizan Jewllery</a>. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+  <?php include("footer.php") ?>
 
 
 
@@ -810,50 +272,7 @@
 
         })
     </script>
-      <script>
-        $(document).ready(function () {
-            $(".shop-carousel").owlCarousel();
-        });
 
-        $('.shop-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-        $(document).ready(function () {
-            $(".shop-carousel1").owlCarousel();
-        });
-
-        $('.shop-carousel1').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-       
-  
-    </script>
     <script>
         function formatState(state) {
             if (!state.id) {
@@ -874,99 +293,10 @@
     </script>
     <script>
         $(function () {
-            $('.fav-icon').click(function () {
-                $(this).parent().toggleClass('active');
-            });
             $('.favorite').click(function () {
                 $(this).toggleClass('active');
             });
         });
-   
-    </script>
-
-    <script>
-        $(document).ready(function() {
-		    var slider = $("#slider");
-		    var thumb = $("#thumb");
-		    var slidesPerPage = 4; //globaly define number of elements per page
-		    var syncedSecondary = true;
-		    slider.owlCarousel({
-		        items: 1,
-		        slideSpeed: 2000,
-		        nav: false,
-		        autoplay: false, 
-		        dots: false,
-		        loop: true,
-		        responsiveRefreshRate: 200
-		    }).on('changed.owl.carousel', syncPosition);
-		    thumb
-		        .on('initialized.owl.carousel', function() {
-		            thumb.find(".owl-item").eq(0).addClass("current");
-		        })
-		        .owlCarousel({
-		            items: slidesPerPage,
-		            dots: false,
-		            nav: true,
-		            item: 4,
-                    margin: 10,
-		            smartSpeed: 200,
-		            slideSpeed: 500,
-		            slideBy: slidesPerPage, 
-		        	navText: ['<svg width="13px" height="13px" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 3px;stroke: #fff;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="13px" height="13px" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 3px;stroke: #fff;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
-		            responsiveRefreshRate: 100
-		        }).on('changed.owl.carousel', syncPosition2);
-		    function syncPosition(el) {
-		        var count = el.item.count - 1;
-		        var current = Math.round(el.item.index - (el.item.count / 2) - .5);
-		        if (current < 0) {
-		            current = count;
-		        }
-		        if (current > count) {
-		            current = 0;
-		        }
-		        thumb
-		            .find(".owl-item")
-		            .removeClass("current")
-		            .eq(current)
-		            .addClass("current");
-		        var onscreen = thumb.find('.owl-item.active').length - 1;
-		        var start = thumb.find('.owl-item.active').first().index();
-		        var end = thumb.find('.owl-item.active').last().index();
-		        if (current > end) {
-		            thumb.data('owl.carousel').to(current, 100, true);
-		        }
-		        if (current < start) {
-		            thumb.data('owl.carousel').to(current - onscreen, 100, true);
-		        }
-		    }
-		    function syncPosition2(el) {
-		        if (syncedSecondary) {
-		            var number = el.item.index;
-		            slider.data('owl.carousel').to(number, 100, true);
-		        }
-		    }
-		    thumb.on("click", ".owl-item", function(e) {
-		        e.preventDefault();
-		        var number = $(this).index();
-		        slider.data('owl.carousel').to(number, 300, true);
-		    });
-
-
-            $(".qtyminus").on("click",function(){
-                var now = $(".qty").val();
-                if ($.isNumeric(now)){
-                    if (parseInt(now) -1> 0)
-                    { now--;}
-                    $(".qty").val(now);
-                }
-            })            
-            $(".qtyplus").on("click",function(){
-                var now = $(".qty").val();
-                if ($.isNumeric(now)){
-                    $(".qty").val(parseInt(now)+1);
-                }
-            });
-		});
     </script>
 </body>
 </html>
