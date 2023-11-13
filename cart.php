@@ -401,17 +401,20 @@
 
 
             $(".qtyminus").on("click",function(){
-                var now = $(".qty").val();
-                if ($.isNumeric(now)){
-                    if (parseInt(now) -1> 0)
-                    { now--;}
-                    $(".qty").val(now);
+                var now = $(this).siblings("input[name='quantity']");
+                var nowValue = now.val();
+                if ($.isNumeric(nowValue)){
+                    if (parseInt(nowValue) -1> 0)
+                    { nowValue--;}
+                    now.val(nowValue);
                 }
             })            
             $(".qtyplus").on("click",function(){
-                var now = $(".qty").val();
-                if ($.isNumeric(now)){
-                    $(".qty").val(parseInt(now)+1);
+                var now = $(this).siblings("input[name='quantity']");
+                var nowValue = now.val();
+               
+                if ($.isNumeric(nowValue)){
+                    now.val(parseInt(nowValue)+1);
                 }
             });
 		});
