@@ -47,96 +47,7 @@
             <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
       </div>
-
       <div class="main-heading mt-100" data-aos="fade-up" data-aos-duration="3000">
-        <h2>Diamond Jewellery</h2>
-      </div>
-
-      <section class="box-sec">
-        <div class="container" data-aos="fade-up" data-aos-duration="3000">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="Jewellery-box">
-                        <div class="jew-img">
-                            <img src="img/j1.jpg" alt="">
-                            <div class="overlay">
-                                <h4>Diamond Wedding Ring</h4>
-                               <a href="product.php"> <button type="button" class="btn6">
-                                    <span class="transition"></span>
-                                    <span class="label">View More</span>
-                                  </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="Jewellery-box">
-                        <div class="jew-img">
-                            <img src="img/j2.jpg" alt="">
-                            <div class="overlay">
-                                <h4>Diamond Chain Set</h4>
-                                <a href="product.php"> <button type="button" class="btn6">
-                                    <span class="transition"></span>
-                                    <span class="label">View More</span>
-                                  </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="Jewellery-box">
-                        <div class="jew-img">
-                            <img src="img/j3.jpg" alt="">
-                            <div class="overlay">
-                                <h4>Diamond Chain</h4>
-                                <a href="product.php"> <button type="button" class="btn6">
-                                    <span class="transition"></span>
-                                    <span class="label">View More</span>
-                                  </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="Jewellery-box">
-                        <div class="jew-img">
-                            <img src="img/j4.jpg" alt="">
-                            <div class="overlay">
-                                <h4>Diamond Bangles</h4>
-                                <a href="product.php"> <button type="button" class="btn6">
-                                    <span class="transition"></span>
-                                    <span class="label">View More</span>
-                                  </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <section class="about-sec top-abt-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 order-2 order-md-1" data-aos="fade-right" data-aos-duration="3000">
-                    <div class="about-img">
-                        <img src="img/abt2.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-6 order-1 order-md-2 align-center justify-center" data-aos="fade-left" data-aos-duration="3000">
-                    <div class="about-content">
-                        <h2>Shop by Category</h2>
-                        <p>Discover the beauty of gold and diamonds with our timeless collection.</p>
-                       <a href="product.php"><button type="button" class="btn1">VIEW MORE</button></a> 
-                    
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
         <h2>Gold Jewellery</h2>
       </div>
 
@@ -202,6 +113,29 @@
             </div>
         </div>
       </section>
+
+      <section class="about-sec top-abt-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-2 order-md-1" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="about-img">
+                        <img src="img/abt2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 align-center justify-center" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="about-content">
+                        <h2>Shop by Category</h2>
+                        <p>Discover the beauty of gold and diamonds with our timeless collection.</p>
+                       <a href="product.php"><button type="button" class="btn1">VIEW MORE</button></a> 
+                    
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
 
       <div class="main-heading" data-aos="fade-up" data-aos-duration="3000">
         <h2>Shop by Category</h2>
@@ -701,23 +635,8 @@
                       </div>
                    
                 </div>
-                <div class="gallery" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="row gx-2">
-                        <div class="col-md-3">
-                            <img src="img/g1.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-3 d-none d-md-block">
-                            <img src="img/g2.jpg" alt="" class="img-fluid mt-40 vert-move">
-                        </div>
-                        <div class="col-md-3 d-none d-md-block">
-                            <img src="img/g3.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-3 d-none d-md-block">
-                            <img src="img/g4.jpg" alt="" class="img-fluid mt-40 vert-move">
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-info" data-aos="fade-up" data-aos-duration="3000">
+
+                <div class="contact-info mt-100" data-aos="fade-up" data-aos-duration="3000">
                     <h5><a href="tel:+971567556916">(+971) 56 7556 916</a></h5>
                     <h4><a href="mailto:sales@rizanjewellery.com">sales@rizanjewellery.com</a></h4>
                     <h6>Shop 11, Ground Floor Safari Mall, Sharjah-UAE</h6>

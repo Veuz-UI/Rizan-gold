@@ -87,10 +87,63 @@
                                             <?php   }  ?>"><a class="nav-link" href="index.php">Home</a></li>
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="product" || basename($_SERVER['PHP_SELF'], ".php")=="product-details") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="product.php">Shop All</a></li>
+                                            
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="about") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="about.php">About Us</a></li>
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="contact") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>
+
+
+                                            <li class="nav-item dropdown has-megamenu">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Category</a>
+                                            <div class="dropdown-menu megamenu" role="menu">
+                                                <div class="container-fluid px-0">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <h5 class="category-top">Jewelery & sectionals</h5>
+                                                        </div>
+                                                      <div class="col-md-3 col-lg-3 mb-3 mb-lg-0">
+                                                        <div class="list-group list-group-flush">
+                                                          <a href="" class="list-group-item list-group-item-action">Earrings</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Bangles</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Necklace</a>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-3 col-lg-2 mb-3 mb-lg-0">
+                                                        <div class="list-group list-group-flush">
+                                                          <a href="" class="list-group-item list-group-item-action">Bracelets</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Baby Collections</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Wedding Ring</a>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-3 col-lg-2 mb-3 mb-md-0">
+                                                        <div class="list-group list-group-flush">
+                                                          <a href="" class="list-group-item list-group-item-action">Pendant</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Nose Pin</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Mangalsutra</a>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-3 col-lg-2">
+                                                        <div class="list-group list-group-flush">
+                                                          <a href="" class="list-group-item list-group-item-action">Rings Gents</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Rings</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Pendant Set</a>
+                            
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-3 col-lg-2">
+                                                        <div class="list-group list-group-flush">
+                                                          <a href="" class="list-group-item list-group-item-action">Gold Coins</a>
+                                                          <a href="" class="list-group-item list-group-item-action">Investment Bars</a>
+                            
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                        </li>
+
+                                        
                                         <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="blog" || basename($_SERVER['PHP_SELF'], ".php")=="blog-details") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="blog.php">Blog</a></li>

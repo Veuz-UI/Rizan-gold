@@ -92,6 +92,7 @@
                 <div class="footer-links">
                     <h5>Get to Know Us</h5>
                     <ul>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="product.php">Our Stores</a></li>
                         <!-- <li><a href="#">CSR</a></li> -->
@@ -99,12 +100,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-md-3 col-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="footer-links">
                     <h5>Rizan Assurance</h5>
                     <ul>
                         <li>Lifetime Product Service </li>
-                        <li>14 Days Return </li>
+                        <li>14 Days Return</li>
                         <li>Only Certified Jewellery</li>
                         <li>Product Detail Pricing</li>
                         <li>Easy Exchange</li>
@@ -116,24 +117,13 @@
                     <h5>Policies</h5>
                     <ul>
                         <li><a href="refund-policy.php">Refund Policy</a></li>
-                        <li><a href="buyback-policy.php">Buyback Policy</a></li>
-                        <li><a href="exchange-policy.php">Exchange Policy</a></li>
                         <li><a href="shipping-policy.php">Shipping Policy</a></li>
                         <li><a href="cancellation-policy.php">Cancellation Policy</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="footer-links">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="#">Ring Size Guide</a></li>
-                        <li><a href="#">Bangle Size Guide</a></li>
-                        <li><a href="career.php">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
+
             <div class="col-md-2 col-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="footer-links">
                     <h5>Customer Service</h5>
