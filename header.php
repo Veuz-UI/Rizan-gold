@@ -69,6 +69,16 @@
                             <div class="top-login">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#login"><i class="fa-regular fa-user"></i>Log In</a>
                             </div>
+                            <div class="dropdown"> 
+                                <div class="top-login dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a href="#"><i class="fa-regular fa-user"></i>Log In</a>
+                                </div>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
                             <div class="cart">
                                 <a href="cart.php">Cart (0)</a>
                             </div>
