@@ -74,9 +74,12 @@
                                     <a href="#"><i class="fa-regular fa-user"></i>Log In</a>
                                 </div>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li><a class="dropdown-item log-dropdown" href="menu.php">Profile</a></li>
+                                  <li><a class="dropdown-item log-dropdown" href="wishlist.php">Wishlist</a></li>
+                                  <li><a class="dropdown-item log-dropdown" href="menu.php">Acount Details</a></li>
+                                  <button class="logout-btn btn5">
+                                    Logout
+                                  </button>
                                 </ul>
                               </div>
                             <div class="cart">
@@ -100,8 +103,7 @@
                                             
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="about") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="about.php">About Us</a></li>
-                                        <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="contact") { ?> active
-                                            <?php   }  ?>"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                                       
 
 
                                             <li class="nav-item dropdown has-megamenu">
@@ -157,7 +159,14 @@
                                         <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="blog" || basename($_SERVER['PHP_SELF'], ".php")=="blog-details") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="blog.php">Blog</a></li>
-
+                                            <li class="nav-item dropdown <?php if(basename($_SERVER['PHP_SELF'], ".php")=="contact") { ?> active
+                                                <?php   }  ?>"><a class="nav-link dropdown-toggle" href="contact.php" data-bs-toggle="dropdown">Contact Us</a>
+                                                <ul class="dropdown-menu dropdown-menu-end contact-dropdown">
+                                                    <li><a class="dropdown-item" href="contact-head-office.php">Rizan Head Office</a></li>
+                                                    <li><a class="dropdown-item" href="contact-malesia.php">Rizan Malesia</a></li>
+                                                  </ul>
+                                                </li>   
+                                                
                                     </ul>
                                     <ul class="header-social">
                                         <li><a href="https://www.facebook.com/rizangold"><i class="fa-brands fa-facebook-f"></i></a></li>
