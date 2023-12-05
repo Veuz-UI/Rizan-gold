@@ -155,8 +155,10 @@
                                             </div>
                                         </li>
 
-                                        
-                                        <li class="nav-item"> <a class="nav-link" href="#">Gold Rate</a> </li>
+                                        <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="gold-price") { ?> active
+                                            <?php   }  ?>"><a class="nav-link" href="gold-price.php">Gold Rate</a></li>
+
+
                                         <li class="nav-item <?php if(basename($_SERVER['PHP_SELF'], ".php")=="blog" || basename($_SERVER['PHP_SELF'], ".php")=="blog-details") { ?> active
                                             <?php   }  ?>"><a class="nav-link" href="blog.php">Blog</a></li>
                                             <li class="nav-item dropdown <?php if(basename($_SERVER['PHP_SELF'], ".php")=="contact") { ?> active
